@@ -5,3 +5,4 @@ Device development from idea to finished product with all processes and complexi
 ![1](https://user-images.githubusercontent.com/64357748/85791713-f7b45c00-b73a-11ea-8cd8-08fbfcc4a59e.jpg)
 
 # Electrical functional diagram of the device
+https://github.com/AndriiShchyrba/Infrared-data-transmission-reception-module-/issues/2#issue-645836775
