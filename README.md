@@ -85,3 +85,7 @@ void loop()
 ```
 
 # Illustration of the operation of the device
+![3](https://user-images.githubusercontent.com/64357748/85795886-ad82a900-b741-11ea-926e-d7ffacd63408.jpg)
+
+# Result 
+I designed a device for transmitting and receiving infrared rays based on the Arduino Uno platform, with information output to the LCD 1602. I also mastered new libraries for me: Wire.h, LiquidCrystal_I2C.h and IRremote.h. Also tried in the process of writing code to optimize it, for a better understanding of the code. In general, while working, I gained invaluable experience in understanding the operation of the Arduino Uno platform.
