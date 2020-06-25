@@ -3,3 +3,5 @@ Device development from idea to finished product with all processes and complexi
 
 # Functional diagram of the device
 ![1](https://user-images.githubusercontent.com/64357748/85791713-f7b45c00-b73a-11ea-8cd8-08fbfcc4a59e.jpg)
+
+# Electrical functional diagram of the device
