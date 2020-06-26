@@ -23,13 +23,13 @@ decode_results results; //the results are returned by the decoder (резуль�
 void setup()
 {
   lcd.init();          // LCD initialization (ініціалізація LCD)
-  lcd.backlight(); // включаємо підсвітку LCD дисплея (turn on the backlight of the LCD display)
-  irrecv.enableIRIn(); // запускаємо приймач (start the receiver)
+  lcd.backlight(); // turn on the backlight of the LCD display (включаємо підсвітку LCD дисплея)
+  irrecv.enableIRIn(); // start the receiver (запускаємо приймач)
 }
-void translateIR() // робить певні операції на основі отриманого коду (performs certain operations based on the received code)
-// відображення ІК-кодів на модулі LCD (display of IR codes on the LCD module)
+void translateIR() // performs certain operations based on the received code (робить певні операції на основі отриманого коду)
+// display of IR codes on the LCD module (відображення ІК-кодів на модулі LCD)
 { 
-  switch(results.value)// конструкція switch отримує результат (the switch construct gets the result)
+  switch(results.value)// the switch construct gets the result (конструкція switch отримує результат)
   {
     case 0xFF58A7: lcd.println(" OK      "); break;
     case 0xFF5AA5: lcd.println(" Power   ")     ; break;
